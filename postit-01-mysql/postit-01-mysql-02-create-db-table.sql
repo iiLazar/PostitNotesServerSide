@@ -1,0 +1,11 @@
+-- Post-it V01 2020 07 16
+
+CREATE DATABASE IF NOT EXISTS postit;
+
+USE postit;
+
+CREATE TABLE IF NOT EXISTS note (
+	id INT AUTO_INCREMENT NOT NULL,
+    content VARCHAR(255),
+    PRIMARY KEY (id)
+);
