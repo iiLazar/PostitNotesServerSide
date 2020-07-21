@@ -56,7 +56,10 @@ public class NoteController {
 			) {
 		Note note = noteService.getNote(id);
 		model.addAttribute("note", note);
-		return "notes";
+		
+		List<Note> notes = noteService.getNotes();
+		model.addAttribute("notes", notes);
+		return "edit";
 	}
 
 }
