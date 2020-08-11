@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ilazar</groupId>
-	<artifactId>postit-02-java-mvn</artifactId>
-	<version>1.0</version>
+	<artifactId>post-it-notes</artifactId>
+	<version>5.2.2</version>
 	<packaging>war</packaging>
 
-	<name>postit-02-java-mvn</name>
+	<name>postit-03-java-mvn-security</name>
 
 	<properties>
 		<!-- Versions as of 2020 08 11 -->
@@ -121,7 +121,7 @@
 
 
 	<build>
-		<finalName>postit-02-java-mvn</finalName>
+		<finalName>postit-03-java-mvn-security</finalName>
 	
 		<pluginManagement>
 			<plugins>

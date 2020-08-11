@@ -1,0 +1,14 @@
+----------------
+ Post-it Notes
+----------------
+
+V 1.0		2019-11		All JavaScript, Objects
+V 2.0		2019-11		V1 + local persistence
+V 4.0		2019-12		All JavaScript, Arrays + local persistence
+
+V 5.0		2020-07		Backend: MySQL, Java (Spring, Hibernate), XML config
+V 5.1.1		2020-08		Backend: MySQL, Java (Spring, Hibernate), all Java config, Maven
+V 5.1.2		2020-08		Backend: MySQL, Java (Spring, Hibernate), all Java config, Maven,
+					Spring Security user authentication
+V 5.1.3		2020-08		Backend: MySQL, Java (Spring, Hibernate), all Java config, Maven,
+					Spring Security user authentication, new user registration
