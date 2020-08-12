@@ -23,10 +23,12 @@
     <fieldset>
         <legend><h3>REGISTER</h3></legend>
            <form:form action="${pageContext.request.contextPath}/register/registerUser"
-           				modelAttribute="newUser" method="POST">
-		      <c:if test="${param.error != null}">
-                  <i style="color: red;">Invalid credentials; try again.</i>
-		      </c:if>
+           				modelAttribute="postitUser" method="POST">
+
+				<c:if test="${registrationError != null}">
+					<i style="color: red;">${registrationError}</i>
+				</c:if>
+				
 		      <p>Username: <input type="text" name="username" /></p>
 		      <p>Password: <input type="password" name="password" /></p>
 		      <input class="logBtn" type="submit" value="Register user" />
