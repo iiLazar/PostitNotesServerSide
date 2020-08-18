@@ -4,10 +4,10 @@
 
 	<groupId>ilazar</groupId>
 	<artifactId>post-it-notes</artifactId>
-	<version>5.1.2</version>
+	<version>5.1.3</version>
 	<packaging>war</packaging>
 
-	<name>postit-03-java-mvn-security</name>
+	<name>postit-04-java-custom-user</name>
 
 	<properties>
 		<!-- Versions as of 2020 08 11 -->
@@ -121,7 +121,7 @@
 
 
 	<build>
-		<finalName>postit-03-java-mvn-security</finalName>
+		<finalName>postit-04-java-custom-user</finalName>
 	
 		<pluginManagement>
 			<plugins>
