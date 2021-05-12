@@ -12,7 +12,7 @@
 	<properties>
 		<!-- Versions as of 2020 08 11 -->
 		<springframework.version>5.2.8.RELEASE</springframework.version>
-		<springsecurity.version>5.3.4.RELEASE</springsecurity.version>
+		<springsecurity.version>5.3.9.RELEASE</springsecurity.version>
 
 		<hibernate.version>5.4.20.Final</hibernate.version>
         <mysql.connector.version>8.0.21</mysql.connector.version>
